@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://daapot7h7r60s"]
+
+[ext_resource type="Shader" uid="uid://dfywhb7gtnfs0" path="res://shaders/molecule_shader.gdshader" id="1_rq1nf"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_rq1nf")

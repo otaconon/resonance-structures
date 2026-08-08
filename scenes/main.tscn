@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://ui6bdu8ij1yk"]
+
+[ext_resource type="Material" uid="uid://daapot7h7r60s" path="res://materials/molecule_material.tres" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://bou3xo8vb5nmt" path="res://scripts/molecule_mesh.gd" id="2_0wfyh"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_pijsi"]
+size = Vector3(10.541901, 8.9788, 5.5506)
+
+[node name="Main" type="Node3D" unique_id=393169869]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=938696295]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18355036, -0.35220003, -0.3067999)
+mesh = SubResource("BoxMesh_pijsi")
+surface_material_override/0 = ExtResource("1_o5qli")
+script = ExtResource("2_0wfyh")
+molecule_data_path = "res://data/compounds/aspirin.sdf"
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=268622444]
+transform = Transform3D(1, 0, 0, 0, 0.7521132, 0.6590341, 0, -0.6590341, 0.7521132, 0, 4.771298, 5.236961)
