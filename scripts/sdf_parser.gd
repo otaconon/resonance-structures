@@ -1,6 +1,5 @@
 @tool
-class_name SDFParser
-extends RefCounted
+class_name SDFParser extends RefCounted
 
 static func load_sdf(file_path: String) -> MoleculeData:
 	if not FileAccess.file_exists(file_path):
@@ -38,7 +37,6 @@ static func parse_V2000(counts_line: String, lines) -> MoleculeData:
 		var element = line.substr(31, 3).strip_edges()
 		molecule_data.atom_positions.append(Vector3(x, y, z))
 		molecule_data.atom_elements.append(element)
-		print(element)
 
 		current_line_idx += 1
 

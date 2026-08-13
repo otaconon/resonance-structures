@@ -3,6 +3,7 @@ render_mode cull_front;
 
 uniform sampler2D atom_data;
 uniform int atom_count = 0;
+uniform int bond_count = 0;
 uniform float smooth_factor = 0.5;
 
 varying vec3 camera_pos_world;
@@ -18,16 +19,36 @@ float smin(float a, float b, float k) {
     return mix(b, a, h) - k * h * (1.0 - h);
 }
 
+float sdCapsule(vec3 p, vec3 a, vec3 b, float r) {
+    vec3 pa = p - a, ba = b - a;
+    float h = clamp(dot(pa, ba) / dot(ba, ba), 0.0, 1.0);
+    return length(pa - ba * h) - r;
+}
+
+float sdSphere(vec3 p, vec4 atom) {
+	return length(p - atom.xyz) - atom.w;
+}
+
 float map_molecule(vec3 p) {
     float min_dist = 10000.0;
     
     for (int i = 0; i < atom_count; i++) {
         vec4 atom = texelFetch(atom_data, ivec2(i, 0), 0);
-        float sphere_dist = length(p - atom.xyz) - atom.w;
-        
-        //min_dist = smin(min_dist, sphere_dist, smooth_factor);
-		min_dist = min(min_dist, sphere_dist);
+        float atom_dist = sdSphere(p, atom);
+		min_dist = min(min_dist, atom_dist);
     }
+	
+	float bond_radius = 0.15;
+    for (int i = 0; i < bond_count; i++) {
+        ivec2 bond_indices = ivec2(texelFetch(atom_data, ivec2(i, 2), 0).xy);
+        vec3 atom_a = texelFetch(atom_data, ivec2(bond_indices.x, 0), 0).xyz;
+        vec3 atom_b = texelFetch(atom_data, ivec2(bond_indices.y, 0), 0).xyz;
+        
+        float bond_dist = sdCapsule(p, atom_a, atom_b, bond_radius);
+        
+        min_dist = min(min_dist, bond_dist);
+    }
+	
     return min_dist;
 }
 

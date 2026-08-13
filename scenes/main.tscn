@@ -1,15 +1,33 @@
 [gd_scene format=3 uid="uid://ui6bdu8ij1yk"]
 
 [ext_resource type="Material" uid="uid://daapot7h7r60s" path="res://materials/molecule_material.tres" id="1_o5qli"]
-[ext_resource type="Script" uid="uid://bou3xo8vb5nmt" path="res://scripts/molecule_mesh.gd" id="2_0wfyh"]
+[ext_resource type="Script" uid="uid://bou3xo8vb5nmt" path="res://scripts/molecule_renderer.gd" id="2_0wfyh"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_pijsi"]
 size = Vector3(10.541901, 8.9788, 5.5506)
+
+[sub_resource type="MultiMesh" id="MultiMesh_0wfyh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0wfyh"]
+vertex_color_use_as_albedo = true
+
+[sub_resource type="SphereMesh" id="SphereMesh_sugp2"]
+material = SubResource("StandardMaterial3D_0wfyh")
+radius = 1.0
+height = 2.0
+
+[sub_resource type="MultiMesh" id="MultiMesh_jyhfs"]
+transform_format = 1
+use_colors = true
+instance_count = 21
+mesh = SubResource("SphereMesh_sugp2")
+buffer = PackedFloat32Array(0.6, 0, 0, 1.2333, 0, 0.6, 0, 0.554, 0, 0, 0.6, 0.7792, 0.8713672, 0, 0, 1, 0.6, 0, 0, -0.6952, 0, 0.6, 0, -2.7148, 0, 0, 0.6, -0.7502, 0.8713672, 0, 0, 1, 0.6, 0, 0, 0.7958, 0, 0.6, 0, -2.1843, 0, 0, 0.6, 0.8685, 0.8713672, 0, 0, 1, 0.6, 0, 0, 1.7813, 0, 0.6, 0, 0.8105, 0, 0, 0.6, -1.4821, 0.8713672, 0, 0, 1, 0.7, 0, 0, -0.0857, 0, 0.7, 0, 0.6088, 0, 0, 0.7, 0.4403, 0.57758045, 0.57758045, 0.57758045, 1, 0.7, 0, 0, -0.7927, 0, 0.7, 0, -0.5515, 0, 0, 0.7, 0.1244, 0.57758045, 0.57758045, 0.57758045, 1, 0.7, 0, 0, -0.7288, 0, 0.7, 0, 1.8464, 0, 0, 0.7, 0.4133, 0.57758045, 0.57758045, 0.57758045, 1, 0.7, 0, 0, -2.1426, 0, 0.7, 0, -0.4741, 0, 0, 0.7, -0.2184, 0.57758045, 0.57758045, 0.57758045, 1, 0.7, 0, 0, -2.0787, 0, 0.7, 0, 1.9238, 0, 0, 0.7, 0.0706, 0.57758045, 0.57758045, 0.57758045, 1, 0.7, 0, 0, -2.7855, 0, 0.7, 0, 0.7636, 0, 0, 0.7, -0.2453, 0.57758045, 0.57758045, 0.57758045, 1, 0.7, 0, 0, -0.1409, 0, 0.7, 0, -1.8536, 0, 0, 0.7, 0.1477, 0.57758045, 0.57758045, 0.57758045, 1, 0.7, 0, 0, 2.1094, 0, 0.7, 0, 0.6715, 0, 0, 0.7, -0.3113, 0.57758045, 0.57758045, 0.57758045, 1, 0.7, 0, 0, 3.5305, 0, 0.7, 0, 0.5996, 0, 0, 0.7, 0.1635, 0.57758045, 0.57758045, 0.57758045, 1, 0.25, 0, 0, -0.1851, 0, 0.25, 0, 2.7545, 0, 0, 0.25, 0.6593, 1, 1, 1, 1, 0.25, 0, 0, -2.7247, 0, 0.25, 0, -1.3605, 0, 0, 0.25, -0.4564, 1, 1, 1, 1, 0.25, 0, 0, -2.5797, 0, 0.25, 0, 2.8872, 0, 0, 0.25, 0.0506, 1, 1, 1, 1, 0.25, 0, 0, -3.8374, 0, 0.25, 0, 0.8238, 0, 0, 0.25, -0.509, 1, 1, 1, 1, 0.25, 0, 0, 3.729, 0, 0.25, 0, 1.4184, 0, 0, 0.25, 0.8593, 1, 1, 1, 1, 0.25, 0, 0, 4.2045, 0, 0.25, 0, 0.6969, 0, 0, 0.25, -0.6924, 1, 1, 1, 1, 0.25, 0, 0, 3.7105, 0, 0.25, 0, -0.3659, 0, 0, 0.25, 0.6426, 1, 1, 1, 1, 0.25, 0, 0, -0.2555, 0, 0.25, 0, -3.5916, 0, 0, 0.25, -0.7337, 1, 1, 1, 1)
 
 [node name="Main" type="Node3D" unique_id=393169869]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=938696295]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18355036, -0.35220003, -0.3067999)
+visible = false
 mesh = SubResource("BoxMesh_pijsi")
 surface_material_override/0 = ExtResource("1_o5qli")
 script = ExtResource("2_0wfyh")
@@ -17,3 +35,18 @@ molecule_data_path = "res://data/compounds/aspirin.sdf"
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=268622444]
 transform = Transform3D(1, 0, 0, 0, 0.7521132, 0.6590341, 0, -0.6590341, 0.7521132, 0, 4.771298, 5.236961)
+
+[node name="Node3D" type="Node3D" parent="." unique_id=1042618793]
+
+[node name="MoleculeAtoms" type="MultiMeshInstance3D" parent="Node3D" unique_id=1093475516]
+multimesh = SubResource("MultiMesh_0wfyh")
+script = ExtResource("2_0wfyh")
+molecule_data_path = "res://data/compounds/aspirin.sdf"
+
+[node name="MoleculeMesh" type="Node3D" parent="." unique_id=1399715447]
+script = ExtResource("2_0wfyh")
+molecule_data_path = "C:/dev/games/resonance-structures/data/compounds/aspirin.sdf"
+meshes = Array[int]([0])
+
+[node name="ATOM_MultiMesh" type="MultiMeshInstance3D" parent="MoleculeMesh" unique_id=1505611524]
+multimesh = SubResource("MultiMesh_jyhfs")
