@@ -1,6 +1,480 @@
 [gd_resource type="Resource" script_class="ElementsDB" format=3 uid="uid://bw6h62cshx8wr"]
 
-[ext_resource type="Script" uid="uid://ch3bphcdrnc3r" path="res://scripts/elements_data.gd" id="1_o4ssc"]
+[ext_resource type="Script" uid="uid://ch3bphcdrnc3r" path="res://scripts/data/elements_data.gd" id="1_o4ssc"]
 
 [resource]
 script = ExtResource("1_o4ssc")
+elements = {
+"Ac": {
+"color": Color(1, 1, 1, 1),
+"radius": 1.95
+},
+"Ag": {
+"color": Color(0.5019608, 0.5019608, 0.5647059, 1),
+"radius": 1.6
+},
+"Al": {
+"color": Color(0.5019608, 0.5019608, 0.5647059, 1),
+"radius": 1.25
+},
+"Am": {
+"color": Color(1, 1, 1, 1),
+"radius": 1.75
+},
+"Ar": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 0.71
+},
+"As": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.15
+},
+"At": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 0.25
+},
+"Au": {
+"color": Color(0.85490197, 0.64705884, 0.1254902, 1),
+"radius": 1.35
+},
+"B": {
+"color": Color(0, 1, 0, 1),
+"radius": 0.85
+},
+"Ba": {
+"color": Color(1, 0.64705884, 0, 1),
+"radius": 2.15
+},
+"Be": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.05
+},
+"Bh": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Bi": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.6
+},
+"Bk": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Br": {
+"color": Color(0.64705884, 0.16470589, 0.16470589, 1),
+"radius": 1.15
+},
+"C": {
+"color": Color(0.78431374, 0.78431374, 0.78431374, 1),
+"radius": 0.7
+},
+"Ca": {
+"color": Color(0.5019608, 0.5019608, 0.5647059, 1),
+"radius": 1.8
+},
+"Cd": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.55
+},
+"Ce": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.85
+},
+"Cf": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Cl": {
+"color": Color(0, 1, 0, 1),
+"radius": 1.0
+},
+"Cm": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Cn": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Co": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.35
+},
+"Cr": {
+"color": Color(0.5019608, 0.5019608, 0.5647059, 1),
+"radius": 1.4
+},
+"Cs": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 2.6
+},
+"Cu": {
+"color": Color(0.64705884, 0.16470589, 0.16470589, 1),
+"radius": 1.35
+},
+"Db": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Ds": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Dy": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.75
+},
+"Er": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.75
+},
+"Es": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Eu": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.85
+},
+"F": {
+"color": Color(0.85490197, 0.64705884, 0.1254902, 1),
+"radius": 0.5
+},
+"Fe": {
+"color": Color(1, 0.64705884, 0, 1),
+"radius": 1.4
+},
+"Fl": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Fm": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Fr": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Ga": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.3
+},
+"Gd": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.8
+},
+"Ge": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.25
+},
+"H": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"He": {
+"color": Color(1, 0.7529412, 0.79607844, 1),
+"radius": 1.2
+},
+"Hf": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.55
+},
+"Hg": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.5
+},
+"Ho": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.75
+},
+"Hs": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"I": {
+"color": Color(0.627451, 0.1254902, 0.9411765, 1),
+"radius": 1.4
+},
+"In": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.55
+},
+"Ir": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.35
+},
+"K": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 2.2
+},
+"Kr": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 0.25
+},
+"La": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.95
+},
+"Li": {
+"color": Color(0.69803923, 0.13333334, 0.13333334, 1),
+"radius": 1.45
+},
+"Lr": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Lu": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.75
+},
+"Lv": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Mc": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Md": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Mg": {
+"color": Color(0.13333334, 0.54509807, 0.13333334, 1),
+"radius": 1.5
+},
+"Mn": {
+"color": Color(0.5019608, 0.5019608, 0.5647059, 1),
+"radius": 1.4
+},
+"Mo": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.45
+},
+"Mt": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"N": {
+"color": Color(0.56078434, 0.56078434, 1, 1),
+"radius": 0.65
+},
+"Na": {
+"color": Color(0, 0, 1, 1),
+"radius": 1.8
+},
+"Nb": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.45
+},
+"Nd": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.85
+},
+"Ne": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.6
+},
+"Nh": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Ni": {
+"color": Color(0.64705884, 0.16470589, 0.16470589, 1),
+"radius": 1.35
+},
+"No": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Np": {
+"color": Color(1, 1, 1, 1),
+"radius": 1.75
+},
+"O": {
+"color": Color(0.9411765, 0, 0, 1),
+"radius": 0.6
+},
+"Og": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Os": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.3
+},
+"P": {
+"color": Color(1, 0.64705884, 0, 1),
+"radius": 1.0
+},
+"Pa": {
+"color": Color(1, 1, 1, 1),
+"radius": 1.8
+},
+"Pb": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.8
+},
+"Pd": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.4
+},
+"Pm": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.85
+},
+"Po": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.9
+},
+"Pr": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.85
+},
+"Pt": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.35
+},
+"Pu": {
+"color": Color(1, 1, 1, 1),
+"radius": 1.75
+},
+"Ra": {
+"color": Color(1, 1, 1, 1),
+"radius": 2.15
+},
+"Rb": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 2.35
+},
+"Re": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.35
+},
+"Rf": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Rg": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Rh": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.35
+},
+"Rn": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Ru": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.3
+},
+"S": {
+"color": Color(1, 0.78431374, 0.19607843, 1),
+"radius": 1.0
+},
+"Sb": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.45
+},
+"Sc": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.6
+},
+"Se": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.15
+},
+"Sg": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"Si": {
+"color": Color(0.85490197, 0.64705884, 0.1254902, 1),
+"radius": 1.1
+},
+"Sm": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.85
+},
+"Sn": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.45
+},
+"Sr": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 2.0
+},
+"Ta": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.45
+},
+"Tb": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.75
+},
+"Tc": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.35
+},
+"Te": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.4
+},
+"Th": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.8
+},
+"Ti": {
+"color": Color(0.5019608, 0.5019608, 0.5647059, 1),
+"radius": 1.4
+},
+"Tl": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.9
+},
+"Tm": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.75
+},
+"Ts": {
+"color": Color(1, 1, 1, 1),
+"radius": 0.25
+},
+"U": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.75
+},
+"V": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.35
+},
+"W": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.35
+},
+"Xe": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 0.25
+},
+"Y": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.8
+},
+"Yb": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.75
+},
+"Zn": {
+"color": Color(0.64705884, 0.16470589, 0.16470589, 1),
+"radius": 1.35
+},
+"Zr": {
+"color": Color(1, 0.078431375, 0.5764706, 1),
+"radius": 1.55
+}
+}

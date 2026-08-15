@@ -1,0 +1,13 @@
+[remap]
+
+importer="molecule.rdkit.importer"
+type="AtomData"
+uid="uid://c1wrabjgmovag"
+valid=false
+
+[deps]
+
+source_file="res://data/compounds/caffeine.sdf"
+
+[params]
+
