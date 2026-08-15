@@ -3,11 +3,12 @@
 importer="molecule.rdkit.importer"
 type="AtomData"
 uid="uid://bwp2byyfpwxl2"
-valid=false
+path="res://.godot/imported/aspirin.sdf-5ea8a0b895211ec8ead41b7b6cef0213.res"
 
 [deps]
 
 source_file="res://data/compounds/aspirin.sdf"
+dest_files=["res://.godot/imported/aspirin.sdf-5ea8a0b895211ec8ead41b7b6cef0213.res"]
 
 [params]
 

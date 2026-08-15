@@ -3,11 +3,12 @@
 importer="molecule.rdkit.importer"
 type="AtomData"
 uid="uid://c1wrabjgmovag"
-valid=false
+path="res://.godot/imported/caffeine.sdf-5b7c842cc86acc61217bea0eed49cd8d.res"
 
 [deps]
 
 source_file="res://data/compounds/caffeine.sdf"
+dest_files=["res://.godot/imported/caffeine.sdf-5b7c842cc86acc61217bea0eed49cd8d.res"]
 
 [params]
 
