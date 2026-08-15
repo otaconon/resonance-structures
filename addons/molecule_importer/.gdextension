@@ -3,10 +3,4 @@ entry_symbol = "initialize_extension_module"
 compatibility_minimum = 4.7
 
 [libraries]
-windows.editor.x86_64 = "res://bin/molecule_importer.windows.editor.x86_64.dll"
-windows.debug.x86_64 = "res://bin/libgdexample.windows.template_debug.x86_64.dll"
-
-[dependencies]
-windows.editor.x86_64 = {
-    "C:/dev/tools/miniconda3/envs/resonance-dev/Library/bin/RDKitGraphMol.dll": "",
-}
+windows.editor.x86_64 = "res://addons/molecule_importer/bin/molecule_importer.windows.editor.x86_64.dll"
