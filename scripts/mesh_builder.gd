@@ -5,18 +5,17 @@ enum MeshType {
 	ATOM, BOND, CHARGE
 }
 
-static func build(mesh_type: MeshType, atom_data: AtomData):
+static func build(mesh_type: MeshType, molecule_data: MoleculeData) -> MultiMesh:
 	match mesh_type:
 		MeshType.ATOM:
-			return _build_atom_mesh(atom_data)
-		#MeshType.BOND:
-		#	return _build_bond_mesh(molecule)
+			return _build_atom_mesh(molecule_data.atoms)
+		MeshType.BOND:
+			return _build_bond_mesh(molecule_data)
 		#MeshType.CHARGE:
 		#	return _build_charge_aura_mesh(molecule)
+	return null
 
-static func _build_atom_mesh(atom_data: AtomData):
-	var atoms = atom_data.atoms
-
+static func _build_atom_mesh(atoms: Array) -> MultiMesh:
 	var material := StandardMaterial3D.new()
 	material.vertex_color_use_as_albedo = true
 
@@ -43,10 +42,11 @@ static func _build_atom_mesh(atom_data: AtomData):
 
 	return mm
 
-static func _build_bond_mesh(molecule: MoleculeData):
-	var bond_count = molecule.get_bond_count()
-	var material := StandardMaterial3D.new()
+static func _build_bond_mesh(molecule_data: MoleculeData) -> MultiMesh:
+	var atoms = molecule_data.atoms
+	var bonds = molecule_data.bonds
 
+	var material := StandardMaterial3D.new()
 	var cylinder := CylinderMesh.new()
 	cylinder.material = material
 	cylinder.top_radius = 0.2
@@ -56,24 +56,19 @@ static func _build_bond_mesh(molecule: MoleculeData):
 	var mm = MultiMesh.new()
 	mm.mesh = cylinder
 	mm.transform_format = MultiMesh.TRANSFORM_3D
-	mm.instance_count = bond_count
+	mm.instance_count = bonds.size()
 
-	for i in range(bond_count):
-		var atom_a_idx = molecule.bond_atom1_indices[i]
-		var atom_b_idx = molecule.bond_atom2_indices[i]
+	for i in range(bonds.size()):
+		var atom_a = atoms[bonds[i].atom_a_idx]
+		var atom_b = atoms[bonds[i].atom_b_idx]
 
-		var pos_a = molecule.atom_positions[atom_a_idx]
-		var pos_b = molecule.atom_positions[atom_b_idx]
-
-		var offset = pos_b - pos_a
+		var offset = atom_b.position - atom_a.position
 		var distance = offset.length()
-		var direction = offset.normalized()
-		var midpoint = pos_a + (offset / 2.0)
-
+		var direction = offset / distance
 		var rotation = Quaternion(Vector3.UP, direction)
-		var scale = Vector3(1.0, distance, 1.0)
+		var bond_basis = Basis(rotation).scaled(Vector3(1.0, distance, 1.0))
 
-		var transform = Transform3D(Basis(rotation).scaled(scale), midpoint)
+		var transform = Transform3D(bond_basis, atom_a.position + offset * 0.5)
 		mm.set_instance_transform(i, transform)
 
 	return mm

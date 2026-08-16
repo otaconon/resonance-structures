@@ -1,7 +1,7 @@
 @tool
 extends Node3D
 
-@export var atom_data: AtomData
+@export var molecule_data: MoleculeData
 @export var meshes: Array[MeshBuilder.MeshType]
 @export var reload_molecule: bool = false:
 	set(value):
@@ -16,9 +16,8 @@ extends Node3D
 
 
 func render() -> void:
-	print("Rendering molecule with atom data: ", atom_data)
 	for mesh_type in meshes:
-		var mesh = MeshBuilder.build(mesh_type, atom_data)
+		var mesh = MeshBuilder.build(mesh_type, molecule_data)
 		var mesh_instance = MultiMeshInstance3D.new()
 		mesh_instance.multimesh = mesh
 		mesh_instance.name = MeshBuilder.MeshType.keys()[mesh_type] + "_MultiMesh"
