@@ -5,17 +5,17 @@ enum MeshType {
 	ATOM, BOND, CHARGE
 }
 
-static func build(mesh_type: MeshType, molecule: MoleculeData):
+static func build(mesh_type: MeshType, atom_data: AtomData):
 	match mesh_type:
 		MeshType.ATOM:
-			return _build_atom_mesh(molecule)
-		MeshType.BOND:
-			return _build_bond_mesh(molecule)
-		MeshType.CHARGE:
-			return _build_charge_aura_mesh(molecule)
+			return _build_atom_mesh(atom_data)
+		#MeshType.BOND:
+		#	return _build_bond_mesh(molecule)
+		#MeshType.CHARGE:
+		#	return _build_charge_aura_mesh(molecule)
 
-static func _build_atom_mesh(molecule: MoleculeData):
-	var atom_count = molecule.get_atom_count()
+static func _build_atom_mesh(atom_data: AtomData):
+	var atoms = atom_data.atoms
 
 	var material := StandardMaterial3D.new()
 	material.vertex_color_use_as_albedo = true
@@ -29,11 +29,11 @@ static func _build_atom_mesh(molecule: MoleculeData):
 	mm.mesh = sphere
 	mm.transform_format = MultiMesh.TRANSFORM_3D
 	mm.use_colors = true
-	mm.instance_count = atom_count
+	mm.instance_count = atoms.size()
 
-	for i in range(atom_count):
-		var pos = molecule.atom_positions[i]
-		var element_data = ElementsDB.get_element(molecule.atom_elements[i])
+	for i in atoms.size():
+		var pos = atoms[i].position
+		var element_data = ElementsDB.get_element(atoms[i].symbol)
 		var radius = element_data["radius"]
 		var color: Color = element_data["color"].srgb_to_linear()
 

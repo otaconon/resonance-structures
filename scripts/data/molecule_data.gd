@@ -13,16 +13,6 @@ func get_atom_count() -> int:
 func get_bond_count() -> int:
 	return bond_types.size()
 
-func get_atom(atom_idx: int) -> Atom:
-	var element = atom_elements[atom_idx]
-	var element_data = ElementsDB.get_element(element)
-	return Atom.new(
-		element,
-		atom_positions[atom_idx],
-		element_data["radius"],
-		element_data["color"].srgb_to_linear()
-	)
-
 func get_bond(bond_idx: int) -> Bond:
 	return Bond.new(
 		bond_atom1_indices[bond_idx],

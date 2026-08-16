@@ -1,3422 +1,3422 @@
 [
-    {
-        "structure_id": 0,
-        "atoms": [
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.2666748005515258
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.24749655634109743
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.27918077258769713
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.3278634660994821
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.26147372159164917
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.21837692759548705
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.15176869495678516
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.167411755583096
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.28167722419210994
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.3317034326359889
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.09750227330834146
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0178650095752915
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.012958350519987684
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.019484967584883748
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.10440821292985841
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046297227789203685
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046297227789203685
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046297227789203685
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046107999107498986
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046107999107498986
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046107999107498986
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04635688093016261
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04635688093016261
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04635688093016261
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 1,
-        "atoms": [
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8466899790154585
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.21234997529195743
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.1948680525388682
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.3143364487690136
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.2379763592170861
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.09080639850839757
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.14483213473696085
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.29279919514333114
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.061755758909266406
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.4420097057166681
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.17315859422044494
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06430421504115352
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.014303829015280878
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06016257355559733
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.12510471741792129
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06343237340560179
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06343237340560179
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06343237340560179
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0461594248214447
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0461594248214447
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0461594248214447
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06327369830100577
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06327369830100577
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06327369830100577
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 2,
-        "atoms": [
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8568585409555923
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.24756411007628207
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.2565132454912902
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.22707902562063173
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.30630089378740427
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.025425215300543882
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.20533182520097318
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.298251074909693
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.02248350138832545
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.3300595820645376
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.2889675316732819
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.020034746331744208
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07998733981523438
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.015250052393204235
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.16518272765878286
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04637870085473123
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04637870085473123
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04637870085473123
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07215378263020918
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07215378263020918
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07215378263020918
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046198399780382156
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046198399780382156
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046198399780382156
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 3,
-        "atoms": [
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.24832001583329674
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8224928218883956
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.24194553511723324
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.3103680638012033
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.23799500524021425
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.09074776064066578
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.20241564679512733
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.2942215484250639
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.3361038812720281
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.16840115875987385
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.1732890889017173
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.05977449199140986
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.014470033439531077
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06002650068509022
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.12510699952823254
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06325846081101068
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06325846081101068
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06325846081101068
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04616218659062845
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04616218659062845
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04616218659062845
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0632659701726724
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0632659701726724
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0632659701726724
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 4,
-        "atoms": [
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.840615790969876
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.19650125656528036
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.17498853326967925
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.32804528520141846
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.20447523370134701
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.19746366347412925
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.14252316064982057
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.2518530070947744
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.09226394985704901
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.49830915719764973
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0996342879933904
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08531584033699802
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.012956348722543585
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08254141394543167
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.10449158847251123
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07236594007252325
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07236594007252325
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07236594007252325
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04610800944567143
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04610800944567143
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04610800944567143
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07225972011899255
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07225972011899255
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07225972011899255
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 5,
-        "atoms": [
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.2388006813186969
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8095693261521777
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.22281966313951412
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.32403761723852786
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.20504794979410984
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.19741845944432374
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.20034609068191211
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.25324164529620624
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.362410455737282
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.22966046635669196
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0997660182542065
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08067287633449673
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.013124312061515578
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08234126985272781
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.10449384384425926
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07218540278396464
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07218540278396464
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07218540278396464
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04611080285671926
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04611080285671926
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04611080285671926
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07224936724866676
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07224936724866676
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07224936724866676
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 6,
-        "atoms": [
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.2666748005515258
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.24749655634109743
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.27918077258769713
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.3278634660994821
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.26147372159164917
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.21837692759548705
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.15176869495678516
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.167411755583096
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.28167722419210994
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.3317034326359889
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.09750227330834146
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0178650095752915
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.012958350519987684
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.019484967584883748
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.10440821292985841
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046297227789203685
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046297227789203685
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046297227789203685
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046107999107498986
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046107999107498986
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.046107999107498986
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04635688093016261
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04635688093016261
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04635688093016261
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 7,
-        "atoms": [
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8452586422214441
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8225622496192138
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.23296045521511735
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.22456011985000443
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.2822101143844426
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.009314013682647136
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.23679279513722915
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.35087654771085364
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08211487899690097
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.16561829050410146
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.29075202157412716
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06059327819266665
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08009787626242276
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.055787951891346395
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.16525526747538594
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06328893933396532
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06328893933396532
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06328893933396532
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07215570172357277
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07215570172357277
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07215570172357277
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06310314357396254
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06310314357396254
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06310314357396254
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 8,
-        "atoms": [
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8391303406927624
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8096114035217157
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.19978471443989906
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.22322457474951338
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.24930067312568882
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.0013728913995211453
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.25339596009547927
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.3792550213897505
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.11420502005758501
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.22800233109036178
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.2916084433033465
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08292397676878362
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08015664966731602
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07805138050763058
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.1652894816263513
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0722730787940196
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0722730787940196
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.0722730787940196
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07215672360738111
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07215672360738111
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07215672360738111
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07208230873943133
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07208230873943133
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07208230873943133
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 9,
-        "atoms": [
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8343523193657716
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.7961392128726247
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.16205926771253487
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.2958206632937335
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.21957177143827472
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.033536356053896335
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.19841259605404984
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.41735626875871923
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.1232234932708568
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.29033006457153177
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.2490566628030695
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.10571324365253233
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.01592426224075855
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.09997835009271389
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.1470377332735621
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08156731601914342
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08156731601914342
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08156731601914342
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04621785294333891
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04621785294333891
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04621785294333891
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08133956567460067
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08133956567460067
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08133956567460067
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 10,
-        "atoms": [
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.23897499755757534
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.828548810294268
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.30611311983502043
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.3259715636220204
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.2252327525160877
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.21834695618194241
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.17600543584565181
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.16796334056904064
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.35840396207269715
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.13653846579070744
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.09756772220147909
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.015533520087716102
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.01304149786908017
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08025856461619037
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.10440935486180535
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04621349120445228
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04621349120445228
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04621349120445228
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04610941179660712
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04610941179660712
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04610941179660712
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07216587569645597
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07216587569645597
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07216587569645597
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 11,
-        "atoms": [
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8573195870786887
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.22858239272028988
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.20725848057285662
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.2594770300577956
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.2941914497091411
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.07312979343580543
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.18438426383469256
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.3071270771551109
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.016371108582503825
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.3850379317955494
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.22723529007487459
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06291321639811859
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.057721121796511635
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.016587396658017853
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.14418006200323283
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06337549656678396
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06337549656678396
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06337549656678396
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06317298888491411
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06317298888491411
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06317298888491411
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04625193630695694
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04625193630695694
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04625193630695694
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 12,
-        "atoms": [
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.26499309470780613
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8348335368769143
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.25391993037270894
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.25553732498769094
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.29373374026732285
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.07306900149604639
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.24131449443249992
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.3085977978191193
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.2978697299483153
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.10597877214454227
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.22736558050617353
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.05848426125828172
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.05788695186614857
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.01651899484614504
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.14418237695698843
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06320622393273947
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06320622393273947
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06320622393273947
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06317579282394506
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06317579282394506
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06317579282394506
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04624720622007392
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04624720622007392
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04624720622007392
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 13,
-        "atoms": [
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8407325983153922
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.2200396425688041
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": -0.2593045950093711
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.3299555607624713
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.22514723138189502
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.21840782757961846
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.1180746796040027
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.1664443718026072
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08764406840852323
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.4124217880358594
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.09743648881930803
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.01998515994247263
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.012874567781375877
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.08032774527395832
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.10440711203504742
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04638066104708075
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04638066104708075
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04638066104708075
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04610663548837915
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04610663548837915
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.04610663548837915
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07216986143600593
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07216986143600593
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07216986143600593
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    },
-    {
-        "structure_id": 14,
-        "atoms": [
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.8458057566052462
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.822578048040318
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.24092357926921795
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.2583052889339898
-            },
-            {
-                "formal_charge": 1,
-                "partial_charge": -0.2830307502292294
-            },
-            {
-                "formal_charge": -1,
-                "partial_charge": -0.07316422371982824
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.19961052439695934
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.30616297361441003
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.07298807289766478
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.16496576856844297
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.2272747609908639
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.05982506784994414
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.05777263058204781
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.05575299269158472
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.14418078684586869
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06325937536119354
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06325937536119354
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06325937536119354
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06317387692702021
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06317387692702021
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06317387692702021
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06310254827624495
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06310254827624495
-            },
-            {
-                "formal_charge": 0,
-                "partial_charge": 0.06310254827624495
-            }
-        ],
-        "bonds": [
-            {
-                "idx_a": 0,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 1,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 7,
-                "order": 2.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 9,
-                "order": 1.0
-            },
-            {
-                "idx_a": 2,
-                "idx_b": 11,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 6,
-                "order": 1.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 10,
-                "order": 2.0
-            },
-            {
-                "idx_a": 3,
-                "idx_b": 12,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 8,
-                "order": 1.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 9,
-                "order": 2.0
-            },
-            {
-                "idx_a": 4,
-                "idx_b": 13,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 5,
-                "idx_b": 10,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 7,
-                "order": 1.0
-            },
-            {
-                "idx_a": 6,
-                "idx_b": 8,
-                "order": 2.0
-            },
-            {
-                "idx_a": 10,
-                "idx_b": 14,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 15,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 16,
-                "order": 1.0
-            },
-            {
-                "idx_a": 11,
-                "idx_b": 17,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 18,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 19,
-                "order": 1.0
-            },
-            {
-                "idx_a": 12,
-                "idx_b": 20,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 21,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 22,
-                "order": 1.0
-            },
-            {
-                "idx_a": 13,
-                "idx_b": 23,
-                "order": 1.0
-            }
-        ]
-    }
+	{
+		"structure_id": 0,
+		"atoms": [
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.2666748005515258
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.24749655634109743
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.27918077258769713
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.3278634660994821
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.26147372159164917
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.21837692759548705
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.15176869495678516
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.167411755583096
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.28167722419210994
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.3317034326359889
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.09750227330834146
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0178650095752915
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.012958350519987684
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.019484967584883748
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.10440821292985841
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046297227789203685
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046297227789203685
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046297227789203685
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046107999107498986
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046107999107498986
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046107999107498986
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04635688093016261
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04635688093016261
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04635688093016261
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 1,
+		"atoms": [
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8466899790154585
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.21234997529195743
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.1948680525388682
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.3143364487690136
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.2379763592170861
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.09080639850839757
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.14483213473696085
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.29279919514333114
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.061755758909266406
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.4420097057166681
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.17315859422044494
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06430421504115352
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.014303829015280878
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06016257355559733
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.12510471741792129
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06343237340560179
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06343237340560179
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06343237340560179
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0461594248214447
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0461594248214447
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0461594248214447
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06327369830100577
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06327369830100577
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06327369830100577
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 2,
+		"atoms": [
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8568585409555923
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.24756411007628207
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.2565132454912902
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.22707902562063173
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.30630089378740427
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.025425215300543882
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.20533182520097318
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.298251074909693
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.02248350138832545
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.3300595820645376
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.2889675316732819
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.020034746331744208
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07998733981523438
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.015250052393204235
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.16518272765878286
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04637870085473123
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04637870085473123
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04637870085473123
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07215378263020918
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07215378263020918
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07215378263020918
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046198399780382156
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046198399780382156
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046198399780382156
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 3,
+		"atoms": [
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.24832001583329674
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8224928218883956
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.24194553511723324
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.3103680638012033
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.23799500524021425
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.09074776064066578
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.20241564679512733
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.2942215484250639
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.3361038812720281
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.16840115875987385
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.1732890889017173
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.05977449199140986
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.014470033439531077
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06002650068509022
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.12510699952823254
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06325846081101068
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06325846081101068
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06325846081101068
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04616218659062845
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04616218659062845
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04616218659062845
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0632659701726724
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0632659701726724
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0632659701726724
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 4,
+		"atoms": [
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.840615790969876
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.19650125656528036
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.17498853326967925
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.32804528520141846
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.20447523370134701
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.19746366347412925
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.14252316064982057
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.2518530070947744
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.09226394985704901
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.49830915719764973
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0996342879933904
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08531584033699802
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.012956348722543585
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08254141394543167
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.10449158847251123
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07236594007252325
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07236594007252325
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07236594007252325
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04610800944567143
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04610800944567143
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04610800944567143
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07225972011899255
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07225972011899255
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07225972011899255
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 5,
+		"atoms": [
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.2388006813186969
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8095693261521777
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.22281966313951412
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.32403761723852786
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.20504794979410984
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.19741845944432374
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.20034609068191211
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.25324164529620624
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.362410455737282
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.22966046635669196
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0997660182542065
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08067287633449673
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.013124312061515578
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08234126985272781
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.10449384384425926
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07218540278396464
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07218540278396464
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07218540278396464
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04611080285671926
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04611080285671926
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04611080285671926
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07224936724866676
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07224936724866676
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07224936724866676
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 6,
+		"atoms": [
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.2666748005515258
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.24749655634109743
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.27918077258769713
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.3278634660994821
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.26147372159164917
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.21837692759548705
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.15176869495678516
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.167411755583096
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.28167722419210994
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.3317034326359889
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.09750227330834146
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0178650095752915
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.012958350519987684
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.019484967584883748
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.10440821292985841
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046297227789203685
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046297227789203685
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046297227789203685
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046107999107498986
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046107999107498986
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.046107999107498986
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04635688093016261
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04635688093016261
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04635688093016261
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 7,
+		"atoms": [
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8452586422214441
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8225622496192138
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.23296045521511735
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.22456011985000443
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.2822101143844426
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.009314013682647136
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.23679279513722915
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.35087654771085364
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08211487899690097
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.16561829050410146
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.29075202157412716
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06059327819266665
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08009787626242276
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.055787951891346395
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.16525526747538594
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06328893933396532
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06328893933396532
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06328893933396532
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07215570172357277
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07215570172357277
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07215570172357277
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06310314357396254
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06310314357396254
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06310314357396254
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 8,
+		"atoms": [
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8391303406927624
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8096114035217157
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.19978471443989906
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.22322457474951338
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.24930067312568882
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.0013728913995211453
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.25339596009547927
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.3792550213897505
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.11420502005758501
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.22800233109036178
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.2916084433033465
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08292397676878362
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08015664966731602
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07805138050763058
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.1652894816263513
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0722730787940196
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0722730787940196
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.0722730787940196
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07215672360738111
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07215672360738111
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07215672360738111
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07208230873943133
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07208230873943133
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07208230873943133
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 9,
+		"atoms": [
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8343523193657716
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.7961392128726247
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.16205926771253487
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.2958206632937335
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.21957177143827472
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.033536356053896335
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.19841259605404984
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.41735626875871923
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.1232234932708568
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.29033006457153177
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.2490566628030695
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.10571324365253233
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.01592426224075855
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.09997835009271389
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.1470377332735621
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08156731601914342
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08156731601914342
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08156731601914342
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04621785294333891
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04621785294333891
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04621785294333891
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08133956567460067
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08133956567460067
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08133956567460067
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 10,
+		"atoms": [
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.23897499755757534
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.828548810294268
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.30611311983502043
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.3259715636220204
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.2252327525160877
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.21834695618194241
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.17600543584565181
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.16796334056904064
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.35840396207269715
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.13653846579070744
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.09756772220147909
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.015533520087716102
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.01304149786908017
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08025856461619037
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.10440935486180535
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04621349120445228
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04621349120445228
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04621349120445228
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04610941179660712
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04610941179660712
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04610941179660712
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07216587569645597
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07216587569645597
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07216587569645597
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 11,
+		"atoms": [
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8573195870786887
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.22858239272028988
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.20725848057285662
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.2594770300577956
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.2941914497091411
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.07312979343580543
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.18438426383469256
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.3071270771551109
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.016371108582503825
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.3850379317955494
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.22723529007487459
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06291321639811859
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.057721121796511635
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.016587396658017853
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.14418006200323283
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06337549656678396
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06337549656678396
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06337549656678396
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06317298888491411
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06317298888491411
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06317298888491411
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04625193630695694
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04625193630695694
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04625193630695694
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 12,
+		"atoms": [
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.26499309470780613
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8348335368769143
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.25391993037270894
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.25553732498769094
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.29373374026732285
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.07306900149604639
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.24131449443249992
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.3085977978191193
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.2978697299483153
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.10597877214454227
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.22736558050617353
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.05848426125828172
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.05788695186614857
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.01651899484614504
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.14418237695698843
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06320622393273947
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06320622393273947
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06320622393273947
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06317579282394506
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06317579282394506
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06317579282394506
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04624720622007392
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04624720622007392
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04624720622007392
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 13,
+		"atoms": [
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8407325983153922
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.2200396425688041
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": -0.2593045950093711
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.3299555607624713
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.22514723138189502
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.21840782757961846
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.1180746796040027
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.1664443718026072
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08764406840852323
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.4124217880358594
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.09743648881930803
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.01998515994247263
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.012874567781375877
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.08032774527395832
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.10440711203504742
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04638066104708075
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04638066104708075
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04638066104708075
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04610663548837915
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04610663548837915
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.04610663548837915
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07216986143600593
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07216986143600593
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07216986143600593
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	},
+	{
+		"structure_id": 14,
+		"atoms": [
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.8458057566052462
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.822578048040318
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.24092357926921795
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.2583052889339898
+			},
+			{
+				"formal_charge": 1,
+				"partial_charge": -0.2830307502292294
+			},
+			{
+				"formal_charge": -1,
+				"partial_charge": -0.07316422371982824
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.19961052439695934
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.30616297361441003
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.07298807289766478
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.16496576856844297
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.2272747609908639
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.05982506784994414
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.05777263058204781
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.05575299269158472
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.14418078684586869
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06325937536119354
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06325937536119354
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06325937536119354
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06317387692702021
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06317387692702021
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06317387692702021
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06310254827624495
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06310254827624495
+			},
+			{
+				"formal_charge": 0,
+				"partial_charge": 0.06310254827624495
+			}
+		],
+		"bonds": [
+			{
+				"idx_a": 0,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 1,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 7,
+				"order": 2.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 9,
+				"order": 1.0
+			},
+			{
+				"idx_a": 2,
+				"idx_b": 11,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 6,
+				"order": 1.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 10,
+				"order": 2.0
+			},
+			{
+				"idx_a": 3,
+				"idx_b": 12,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 8,
+				"order": 1.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 9,
+				"order": 2.0
+			},
+			{
+				"idx_a": 4,
+				"idx_b": 13,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 5,
+				"idx_b": 10,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 7,
+				"order": 1.0
+			},
+			{
+				"idx_a": 6,
+				"idx_b": 8,
+				"order": 2.0
+			},
+			{
+				"idx_a": 10,
+				"idx_b": 14,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 15,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 16,
+				"order": 1.0
+			},
+			{
+				"idx_a": 11,
+				"idx_b": 17,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 18,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 19,
+				"order": 1.0
+			},
+			{
+				"idx_a": 12,
+				"idx_b": 20,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 21,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 22,
+				"order": 1.0
+			},
+			{
+				"idx_a": 13,
+				"idx_b": 23,
+				"order": 1.0
+			}
+		]
+	}
 ]
