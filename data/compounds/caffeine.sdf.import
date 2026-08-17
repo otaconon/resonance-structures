@@ -1,7 +1,7 @@
 [remap]
 
 importer="molecule.rdkit.importer"
-type="AtomData"
+type="MoleculeData"
 uid="uid://c1wrabjgmovag"
 path="res://.godot/imported/caffeine.sdf-5b7c842cc86acc61217bea0eed49cd8d.res"
 
