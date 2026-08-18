@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://x58edwryidev"]
+
+[node name="MoleculeSelector" type="Control" unique_id=1113190051]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=1411559026]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer" unique_id=920963242]
+layout_mode = 2

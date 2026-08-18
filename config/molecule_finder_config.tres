@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="MoleculeSelectorConfig" format=3 uid="uid://kx8w0gg0syeu"]
+
+[ext_resource type="Script" uid="uid://dt4hgpsoyvpwo" path="res://scripts/molecule_finder_config.gd" id="1_nhmds"]
+
+[resource]
+script = ExtResource("1_nhmds")
+molecule_folder = "C:/"

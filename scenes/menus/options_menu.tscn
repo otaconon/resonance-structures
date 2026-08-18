@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://bh6er2aa7cy5t"]
+
+[ext_resource type="Script" uid="uid://c0eocqrc4126e" path="res://scripts/options_menu.gd" id="1_bp0ux"]
+
+[node name="OptionsMenu" type="Control" unique_id=1365265286]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bp0ux")
+
+[node name="FileDialog" type="FileDialog" parent="." unique_id=1436814755]
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1763888603]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=437141442]
+layout_mode = 2
+theme_override_constants/separation = 8
+alignment = 1
+
+[node name="SelectMoleculeFolderButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=256813994]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "SELECT MOLECULE FOLDER"
+
+[node name="BackButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1007857400]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 32
+text = "BACK"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/SelectMoleculeFolderButton" to="." method="_on_select_molecule_folder_button_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/BackButton" to="." method="_on_back_button_pressed"]

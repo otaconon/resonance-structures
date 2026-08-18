@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://b8xvjgxps33s2"]
+
+[ext_resource type="Script" uid="uid://b15u5o876cggj" path="res://scripts/main_menu.gd" id="1_xqga4"]
+
+[node name="MainMenu" type="Control" unique_id=160447176]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xqga4")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=785772463]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=1353551534]
+layout_mode = 2
+theme_override_constants/separation = 8
+alignment = 1
+
+[node name="ResonanceStructuresButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1080185585]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 32
+text = "RESONANCE STRUCTURES"
+
+[node name="OptionsButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=837193726]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 32
+text = "OPTIONS"
+
+[node name="QuitButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=182466536]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 32
+text = "QUIT"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/ResonanceStructuresButton" to="." method="_on_resonance_structures_button_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/OptionsButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]
