@@ -4,3 +4,6 @@
 
 [resource]
 script = ExtResource("1_3q1yx")
+bond_radius = 0.07
+atom_radius_scale = 0.4
+charge_aura_scale = 0.6
