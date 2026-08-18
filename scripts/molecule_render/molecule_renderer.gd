@@ -9,7 +9,6 @@ extends Node3D
 @export_tool_button("Reload Molecule")
 var reload_molecule_action: Callable = render
 
-
 func render() -> void:
 	var expected_names: Dictionary = {}
 	for mesh_type in meshes:

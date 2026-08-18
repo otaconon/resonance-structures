@@ -4,6 +4,8 @@ extends CanvasLayer
 @onready var main_menu = $MainMenu
 @onready var options_menu = $OptionsMenu
 
+signal resonance_structures_pressed
+
 enum MenuState {
 	MAIN_MENU,
 	OPTIONS_MENU,
@@ -19,6 +21,12 @@ func _ready() -> void:
 	main_menu.quit_requested.connect(_on_quit_requested)
 
 	options_menu.back_requested.connect(_on_start_menu_requested)
+
+	main_menu.resonance_structures_pressed.connect(_on_resonance_structures_pressed)
+
+func _on_resonance_structures_pressed() -> void:
+	show_menu(MenuState.NONE)
+	resonance_structures_pressed.emit()
 
 func _on_start_menu_requested() -> void:
 	show_menu(MenuState.MAIN_MENU)

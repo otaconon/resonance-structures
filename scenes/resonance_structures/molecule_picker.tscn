@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://ce1u72oq5q50v"]
+
+[ext_resource type="Script" uid="uid://b7cb8c83r7w4g" path="res://scripts/menus/molecule_picker.gd" id="1_5ldad"]
+
+[node name="MoleculePicker" type="Control" unique_id=289545997]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("1_5ldad")
+
+[node name="MoleculeList" type="ItemList" parent="." unique_id=663731904]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -630.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+theme_override_font_sizes/font_size = 32
+
+[connection signal="item_selected" from="MoleculeList" to="." method="_on_molecule_list_item_selected"]

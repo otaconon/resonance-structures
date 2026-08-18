@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://byrqbldkbrf8n"]
 
-[ext_resource type="Script" uid="uid://bou3xo8vb5nmt" path="res://scripts/molecule_renderer.gd" id="1_coq8p"]
+[ext_resource type="Script" uid="uid://bou3xo8vb5nmt" path="res://scripts/molecule_render/molecule_renderer.gd" id="1_coq8p"]
 [ext_resource type="MoleculeData" uid="uid://bwp2byyfpwxl2" path="res://data/compounds/aspirin.sdf" id="2_2nij2"]
 [ext_resource type="Resource" uid="uid://xm31obg20ou4" path="res://config/default_mesh_builder_config.tres" id="3_7cbxl"]
 [ext_resource type="MoleculeData" uid="uid://c1wrabjgmovag" path="res://data/compounds/caffeine.sdf" id="4_8pr8v"]

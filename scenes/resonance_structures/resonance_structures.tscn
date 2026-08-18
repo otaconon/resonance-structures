@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://duf5eappj2lxq"]
+
+[ext_resource type="PackedScene" uid="uid://ce1u72oq5q50v" path="res://scenes/resonance_structures/molecule_picker.tscn" id="1_7ket7"]
+[ext_resource type="Script" uid="uid://1wfm1jy3lgup" path="res://scripts/game/resonance_structures.gd" id="1_qltbu"]
+[ext_resource type="Script" uid="uid://bou3xo8vb5nmt" path="res://scripts/molecule_render/molecule_renderer.gd" id="2_y7cf2"]
+[ext_resource type="Resource" uid="uid://xm31obg20ou4" path="res://config/default_mesh_builder_config.tres" id="4_bhok3"]
+[ext_resource type="Script" uid="uid://cbc0n3g0eavkm" path="res://scripts/camera/editor_camera.gd" id="5_camera"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5auto"]
+sky_top_color = Color(0.5361922, 0.87954676, 0.7887708, 1)
+sky_horizon_color = Color(0.08163635, 0.17689082, 0.21245801, 1)
+ground_bottom_color = Color(0.000696841, 0.0024661543, 0.00061409874, 1)
+ground_horizon_color = Color(0.025371283, 0.09153765, 0.07362879, 1)
+
+[sub_resource type="Sky" id="Sky_5ldad"]
+sky_material = SubResource("ProceduralSkyMaterial_5auto")
+
+[sub_resource type="Environment" id="Environment_pijsi"]
+background_mode = 2
+sky = SubResource("Sky_5ldad")
+ambient_light_source = 2
+ambient_light_color = Color(0.78775924, 0.78775924, 0.78775924, 1)
+
+[node name="ResonanceStructures" type="Node3D" unique_id=371711104]
+script = ExtResource("1_qltbu")
+
+[node name="MoleculePicker" parent="." unique_id=289545997 instance=ExtResource("1_7ket7")]
+
+[node name="MoleculeRenderer" type="Node3D" parent="." unique_id=82149253]
+script = ExtResource("2_y7cf2")
+meshes = Array[int]([0, 1])
+mesh_config = ExtResource("4_bhok3")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=541994495]
+transform = Transform3D(1, 0, 0, 0, 0.86998993, 0.4930695, 0, -0.4930695, 0.86998993, 0, 5.4662027, 10.767985)
+script = ExtResource("5_camera")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=785072325]
+transform = Transform3D(-3.5391896e-08, -0.41602325, 0.909354, -1.8184952e-08, 0.909354, 0.41602325, -1, -1.8127064e-09, -3.9749125e-08, 11.459748, 6.186043, 0.013504028)
+visible = false
+light_energy = 10.0
+light_specular = 0.473
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1208847989]
+environment = SubResource("Environment_pijsi")

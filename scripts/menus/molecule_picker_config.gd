@@ -1,4 +1,4 @@
-class_name MoleculeSelectorConfig
+class_name MoleculePickerConfig
 extends Resource
 
 @export var molecule_folder: String = ""

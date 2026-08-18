@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="MeshBuilderConfig" format=3 uid="uid://xm31obg20ou4"]
 
-[ext_resource type="Script" uid="uid://bxjci41kvqjnk" path="res://scripts/mesh_builder_config.gd" id="1_3q1yx"]
+[ext_resource type="Script" uid="uid://bxjci41kvqjnk" path="res://scripts/molecule_render/mesh_builder_config.gd" id="1_3q1yx"]
 
 [resource]
 script = ExtResource("1_3q1yx")

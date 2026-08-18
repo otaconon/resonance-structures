@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cc0ffshoccgpi"]
 
 [ext_resource type="PackedScene" uid="uid://bh6er2aa7cy5t" path="res://scenes/menus/options_menu.tscn" id="1_iku3t"]
-[ext_resource type="Script" uid="uid://144cbxe1lth4" path="res://scripts/ui_manager.gd" id="1_reske"]
+[ext_resource type="Script" uid="uid://144cbxe1lth4" path="res://scripts/managers/ui_manager.gd" id="1_reske"]
 [ext_resource type="PackedScene" uid="uid://b8xvjgxps33s2" path="res://scenes/menus/main_menu.tscn" id="1_rwj1f"]
 
 [node name="UIManager" type="CanvasLayer" unique_id=1266791498]

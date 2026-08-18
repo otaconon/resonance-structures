@@ -1,8 +1,12 @@
 [gd_scene format=3 uid="uid://ui6bdu8ij1yk"]
 
 [ext_resource type="PackedScene" uid="uid://cc0ffshoccgpi" path="res://scenes/ui_manager.tscn" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://cga8mmtgpx1qo" path="res://scripts/main.gd" id="2_main"]
+[ext_resource type="PackedScene" uid="uid://duf5eappj2lxq" path="res://scenes/resonance_structures/resonance_structures.tscn" id="3_resonance"]
 
 [node name="Main" type="Node3D" unique_id=393169869]
+script = ExtResource("2_main")
+resonance_structures = ExtResource("3_resonance")
 
 [node name="SceneContainer" type="Node" parent="." unique_id=1573164944]
 
