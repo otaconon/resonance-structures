@@ -2,6 +2,7 @@ extends Node3D
 
 @onready var molecule_picker = $MoleculePicker
 @onready var molecule_renderer = $MoleculeRenderer
+@onready var resonance_structure_list = $ResonanceStructureList
 @onready var camera = $Camera3D
 
 var molecules: Array[MoleculeData]
@@ -11,10 +12,13 @@ func _ready() -> void:
 	_load_molecules()
 	molecule_picker.molecules = molecules
 	molecule_picker.molecule_selected.connect(_on_molecule_selected)
+	resonance_structure_list.molecule_renderer = molecule_renderer
 
 func _on_molecule_selected(molecule: MoleculeData):
 	molecule_renderer.molecule_data = molecule
+	molecule_renderer.resonance_structure = molecule.resonance_structures[0]
 	molecule_renderer.render()
+	resonance_structure_list.resonance_structures = molecule.resonance_structures
 
 func _load_molecules() -> void:
 	if not ResourceLoader.exists(ConfigPaths.MOLECULE_PICKER_CONFIG_PATH):

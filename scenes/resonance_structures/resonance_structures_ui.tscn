@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b0m5ls5lewvfa"]
+
+[ext_resource type="PackedScene" uid="uid://dkp51sqa444nw" path="res://scenes/resonance_structures/resonance_structure_list.tscn" id="1_d66et"]
+[ext_resource type="PackedScene" uid="uid://ce1u72oq5q50v" path="res://scenes/resonance_structures/molecule_picker.tscn" id="2_k5he6"]
+
+[node name="ResonanceStructuresUI" type="CanvasLayer" unique_id=905115072]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1966729000]
+offset_right = 259.0
+offset_bottom = 647.0
+
+[node name="ResonanceStructureList" parent="VBoxContainer" unique_id=1061336848 instance=ExtResource("1_d66et")]
+layout_mode = 2
+
+[node name="MoleculePicker" parent="VBoxContainer" unique_id=289545997 instance=ExtResource("2_k5he6")]
+layout_mode = 2

@@ -5,6 +5,8 @@ enum MeshType {
 	ATOM, BOND, CHARGE
 }
 
+const AtomPickableScript = preload("res://scripts/molecule_render/atom_pickable.gd")
+
 static func build(mesh_type: MeshType, molecule_data: MoleculeData, resonance_structure: ResonanceStructure = null, config: MeshBuilderConfig = null) -> Node3D:
 	config = config if config else MeshBuilderConfig.new()
 	match mesh_type:
@@ -60,7 +62,9 @@ static func _build_atom_meshes(atoms: Array, config: MeshBuilderConfig) -> Node3
 
 		var transform := Transform3D(Basis(), atom.position)
 		var atom_node := _make_pickable_mesh("Atom_%d" % i, _make_sphere_mesh(radius*config.atom_radius_scale, material), shape, transform)
-		atom_node.set_meta("atom_index", i)
+		atom_node.set_script(AtomPickableScript)
+		atom_node.atom = atom
+		atom_node.atom_index = i
 		container.add_child(atom_node)
 
 	return container

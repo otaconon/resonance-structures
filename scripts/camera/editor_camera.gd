@@ -3,7 +3,7 @@ extends Camera3D
 @export var orbit_target: Vector3 = Vector3.ZERO
 
 @export var orbit_sensitivity: float = 0.01
-@export var look_sensitivity: float = 0.01
+@export var look_sensitivity: float = 0.005
 @export var pan_sensitivity: float = 0.001
 
 @export var zoom_step: float = 0.9

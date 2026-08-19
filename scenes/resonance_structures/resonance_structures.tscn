@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://bou3xo8vb5nmt" path="res://scripts/molecule_render/molecule_renderer.gd" id="2_y7cf2"]
 [ext_resource type="Resource" uid="uid://xm31obg20ou4" path="res://config/default_mesh_builder_config.tres" id="4_bhok3"]
 [ext_resource type="Script" uid="uid://cbc0n3g0eavkm" path="res://scripts/camera/editor_camera.gd" id="5_camera"]
+[ext_resource type="PackedScene" uid="uid://dkp51sqa444nw" path="res://scenes/resonance_structures/resonance_structure_list.tscn" id="6_rslist"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5auto"]
 sky_top_color = Color(0.5361922, 0.87954676, 0.7887708, 1)
@@ -26,9 +27,11 @@ script = ExtResource("1_qltbu")
 
 [node name="MoleculePicker" parent="." unique_id=289545997 instance=ExtResource("1_7ket7")]
 
+[node name="ResonanceStructureList" parent="." unique_id=633644205 instance=ExtResource("6_rslist")]
+
 [node name="MoleculeRenderer" type="Node3D" parent="." unique_id=82149253]
 script = ExtResource("2_y7cf2")
-meshes = Array[int]([0, 1])
+meshes = Array[int]([0, 1, 2])
 mesh_config = ExtResource("4_bhok3")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=541994495]

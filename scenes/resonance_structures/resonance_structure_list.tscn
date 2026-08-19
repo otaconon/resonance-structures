@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dkp51sqa444nw"]
+
+[ext_resource type="Script" uid="uid://cyn4jh47idv54" path="res://scripts/menus/resonance_structure_list.gd" id="1_4gvsm"]
+
+[node name="ResonanceStructureList" type="Control" unique_id=1061336848]
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 1
+script = ExtResource("1_4gvsm")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1563043279]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 347.0
+offset_right = 258.0
+offset_bottom = 646.0
+
+[node name="SubmitButton" type="Button" parent="VBoxContainer" unique_id=317843974]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Submit"
+
+[node name="ItemList" type="ItemList" parent="VBoxContainer" unique_id=1194562404]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+
+[connection signal="pressed" from="VBoxContainer/SubmitButton" to="." method="_on_submit_button_pressed"]

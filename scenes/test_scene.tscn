@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://byrqbldkbrf8n"]
 
-[ext_resource type="Script" uid="uid://bou3xo8vb5nmt" path="res://scripts/molecule_render/molecule_renderer.gd" id="1_coq8p"]
-[ext_resource type="MoleculeData" uid="uid://bwp2byyfpwxl2" path="res://data/compounds/aspirin.sdf" id="2_2nij2"]
-[ext_resource type="Resource" uid="uid://xm31obg20ou4" path="res://config/default_mesh_builder_config.tres" id="3_7cbxl"]
-[ext_resource type="MoleculeData" uid="uid://c1wrabjgmovag" path="res://data/compounds/caffeine.sdf" id="4_8pr8v"]
+[ext_resource type="Script" uid="uid://bou3xo8vb5nmt" path="res://scripts/molecule_render/molecule_renderer.gd" id="1_7ddre"]
+[ext_resource type="MoleculeData" uid="uid://bwp2byyfpwxl2" path="res://data/compounds/aspirin.sdf" id="2_qjeyg"]
+[ext_resource type="Resource" uid="uid://xm31obg20ou4" path="res://config/default_mesh_builder_config.tres" id="3_3qnke"]
+[ext_resource type="MoleculeData" uid="uid://c1wrabjgmovag" path="res://data/compounds/caffeine.sdf" id="4_wtsjf"]
 
 [sub_resource type="ResonanceStructure" id="ResonanceStructure_buypi"]
 charges = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -1014,11 +1014,11 @@ height = 0.78
 [node name="TestScene" type="Node3D" unique_id=493312006]
 
 [node name="Aspirin" type="Node3D" parent="." unique_id=879316882]
-script = ExtResource("1_coq8p")
-molecule_data = ExtResource("2_2nij2")
-meshes = Array[int]([1, 0, 2])
+script = ExtResource("1_7ddre")
 resonance_structure = SubResource("ResonanceStructure_buypi")
-mesh_config = ExtResource("3_7cbxl")
+molecule_data = ExtResource("2_qjeyg")
+meshes = Array[int]([1, 0, 2])
+mesh_config = ExtResource("3_3qnke")
 
 [node name="BOND_Meshes" type="Node3D" parent="Aspirin" unique_id=1866204778]
 
@@ -1498,11 +1498,11 @@ shape = SubResource("SphereShape3D_s4a8f")
 
 [node name="Caffeine" type="Node3D" parent="." unique_id=1871538931]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.353722, 0, 0)
-script = ExtResource("1_coq8p")
-molecule_data = ExtResource("4_8pr8v")
-meshes = Array[int]([1, 0, 2])
+script = ExtResource("1_7ddre")
 resonance_structure = SubResource("ResonanceStructure_hslgk")
-mesh_config = ExtResource("3_7cbxl")
+molecule_data = ExtResource("4_wtsjf")
+meshes = Array[int]([1, 0, 2])
+mesh_config = ExtResource("3_3qnke")
 
 [node name="BOND_Meshes" type="Node3D" parent="Caffeine" unique_id=2078113401]
 
